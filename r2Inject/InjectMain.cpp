@@ -1,6 +1,6 @@
-﻿#include <tstr.h>
-#include <hook_detours/ApiHook.h>
-#include <WaitObject.h>
+﻿#include "../include/tstr.h"
+#include "../include/hook_detours/ApiHook.h"
+#include "../include/WaitObject.h"
 
 #define IPC_MAP_SIZE        0x1000  // 文件映射的尺寸
 

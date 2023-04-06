@@ -13,39 +13,36 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="hook">
-      <UniqueIdentifier>{ae5b1c91-8eb7-44a4-84d8-912be05651fb}</UniqueIdentifier>
+    <Filter Include="detours">
+      <UniqueIdentifier>{6c0e646e-eeab-4233-9a60-6250511ad0ef}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="framework.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="pch.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\include\hook_detours\detours\detours.h">
-      <Filter>hook</Filter>
-    </ClInclude>
-    <ClInclude Include="..\include\hook_detours\detours\detver.h">
-      <Filter>hook</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="InjectMain.cpp">
+    <ClCompile Include="DetoursTest.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\include\hook_detours\detours\detours.cpp">
-      <Filter>hook</Filter>
+    <ClCompile Include="..\detours\detours.cpp">
+      <Filter>detours</Filter>
     </ClCompile>
-    <ClCompile Include="..\include\hook_detours\detours\disasm.cpp">
-      <Filter>hook</Filter>
+    <ClCompile Include="..\detours\disolx86.cpp">
+      <Filter>detours</Filter>
     </ClCompile>
-    <ClCompile Include="..\include\hook_detours\detours\disolx86.cpp">
-      <Filter>hook</Filter>
+    <ClCompile Include="..\detours\disasm.cpp">
+      <Filter>detours</Filter>
     </ClCompile>
-    <ClCompile Include="..\include\hook_detours\detours\modules.cpp">
-      <Filter>hook</Filter>
+    <ClCompile Include="..\detours\modules.cpp">
+      <Filter>detours</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\detours\detours.h">
+      <Filter>detours</Filter>
+    </ClInclude>
+    <ClInclude Include="..\detours\detver.h">
+      <Filter>detours</Filter>
+    </ClInclude>
+    <ClInclude Include="ApiHook.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
