@@ -1,0 +1,6 @@
+Push (2)
+Push (258)
+Push (歌曲ID)
+Push (6)
+Mov_ECX_Ptr (十六到十（“013B89D0”）)  ' Game.exe + 1BE2BD0
+Call (十六到十（“00433073”）)  ' Game.exe + 8B033C

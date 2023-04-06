@@ -1,0 +1,5 @@
+LIBRARY
+
+EXPORTS
+	R2Puls_Dll_121007124
+	R2Puls_Dll_Interface
