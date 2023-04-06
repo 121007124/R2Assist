@@ -89,7 +89,7 @@ void _load_window()
     buf.hWndParent = (HWND)333016;
     buf.pszIniFileName = R"(C:\Users\n\Desktop\R2Plus_Dll.ini)";
     buf.pszR2Path = 0;
-    buf.pszR2Path = "C:\\Users\\n\\Desktop\\";
+    buf.pszR2Path = "I:\\r2\\R2练习机\\";
     buf.pfnLoadLogin = sadjkhkjs;
 
     arg.code = SERVER_LOADLIST;

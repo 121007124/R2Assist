@@ -248,9 +248,10 @@ bool parse_xml(_str& xmlData)
                 else if ( _stricmp(name, "File") == 0 )
                 {
                     item.pszFile = (LPCWSTR)value;
-                    isJoin = is_file_exists(value);
-                    if ( !isJoin )
-                        vlCount = -10;
+                    // 这里应该需要判断文件是否存在, 不存在就不加入列表, 这里为了演示都加入了
+                    //isJoin = is_file_exists(value);
+                    //if ( !isJoin )
+                    //    vlCount = -10;
                     vlCount++;
                 }
                 else if ( _stricmp(name, "Image") == 0 )
